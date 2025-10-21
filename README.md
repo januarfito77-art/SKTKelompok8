@@ -38,5 +38,19 @@ Proyek ini merupakan bagian dari **Tugas Akhir** yang mengintegrasikan sistem **
 ```bash
 cd datadwsim
 python3 uploader.py
-atau python
-Atur variabel lingkungan (ENV) sesuai kebutuhan:
+atau python uploader.py
+
+### **Noted untuk Influx DB dan Thingsboard**
+- INFLUX_URL_BASE=http://localhost:8086 (Ini diatur sesuaikan pada device)
+- INFLUX_BUCKET=Sensorskt
+- INFLUX_TOKEN=<token>
+- THINGSBOARD_HOST=mqtt://thingsboard.cloud (ini diatur sesuaikan pada device)
+
+### **2. Rust uploader**
+cd SKTkel8
+cargo build --release
+cargo run
+
+
+
+
