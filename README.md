@@ -39,7 +39,7 @@ Proyek ini merupakan bagian dari **Tugas Akhir** yang mengintegrasikan sistem **
 cd datadwsim
 python3 uploader.py
 atau python uploader.py
-
+---
 ### **Noted untuk Influx DB dan Thingsboard**
 - INFLUX_URL_BASE=http://localhost:8086 (Ini diatur sesuaikan pada device)
 - INFLUX_BUCKET=Sensorskt
