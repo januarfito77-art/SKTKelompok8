@@ -45,7 +45,7 @@ atau python uploader.py
 ### **Noted untuk Influx DB dan Thingsboard**
 - INFLUX_URL_BASE=http://localhost:8086 (Ini diatur sesuaikan pada device)
 - INFLUX_BUCKET=Sensorskt
-- INFLUX_TOKEN=<token>
+- INFLUX_TOKEN=<token> (ini diatur sesuaikan pada device)
 - THINGSBOARD_HOST=mqtt://thingsboard.cloud (ini diatur sesuaikan pada device)
 ### **2. Rust uploader**
 ```bash
