@@ -81,7 +81,6 @@ cargo run
 -Syahira Arliya Putri Subekti
 -Institut Teknologi Sepuluh Nopember (ITS)
 -Departemen Teknik Instrumentasi
----
 
 
 
