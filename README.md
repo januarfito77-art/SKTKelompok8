@@ -67,14 +67,15 @@ cargo run
  [Python Bridge] ◄── DWSIM (.ods simulation)
 ```
 ---
-**## ⭐ Fitur Unggulan**
--✅ Integrasi penuh hardware–software
--✅ Sinkronisasi hasil DWSIM & sensor nyata
--✅ Upload otomatis ke InfluxDB & ThingsBoard
--✅ Efisien: kirim hanya saat file berubah
--✅ Visualisasi real-time dashboard
+## ⭐ Fitur Unggulan
+- ✅ Integrasi penuh hardware–software  
+- ✅ Sinkronisasi hasil DWSIM & sensor nyata  
+- ✅ Upload otomatis ke InfluxDB & ThingsBoard  
+- ✅ Efisien: kirim hanya saat file berubah  
+- ✅ Visualisasi real-time dashboard  
 ---
-**##👩‍💻 Author**
+
+## 👩‍💻 Author
 -Ahmad Radhy, S.Si., M.Si
 -Yanuar Rahmansyah
 -Syahira Arliya Putri Subekti
