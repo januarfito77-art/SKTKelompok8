@@ -4,7 +4,7 @@ Tugas Proyek untuk Sistem Kontrol Terdistribusi  Kelompok 8
 # 🌡️ ESP32-S3 + DWSIM Integration  
 ### Modbus RS485 SHT20 → InfluxDB & ThingsBoard
 
-Proyek ini merupakan bagian dari **Tugas Akhir** yang mengintegrasikan sistem **embedded sensor ESP32-S3 (Rust)** dengan **simulasi proses industri (DWSIM)**. Data suhu dan kelembapan dari **sensor SHT20 (XY-MD02)** dikirim melalui **Modbus TTL–RS485**, diproses oleh firmware Rust, lalu diteruskan ke **InfluxDB** dan **ThingsBoard** untuk visualisasi real-time.
+Proyek ini merupakan bagian dari **Tugas Proyek** yang mengintegrasikan sistem **embedded sensor ESP32-S3 (Rust)** dengan **simulasi proses industri (DWSIM)**. Data suhu dan kelembapan dari **sensor SHT20 (XY-MD02)** dikirim melalui **Modbus TTL–RS485**, diproses oleh firmware Rust, lalu diteruskan ke **InfluxDB** dan **ThingsBoard** untuk visualisasi real-time.
 
 ---
 ## 🧩 Struktur Proyek
