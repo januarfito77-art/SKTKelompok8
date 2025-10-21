@@ -39,18 +39,31 @@ Proyek ini merupakan bagian dari **Tugas Akhir** yang mengintegrasikan sistem **
 cd datadwsim
 python3 uploader.py
 atau python uploader.py
----
+```
 ### **Noted untuk Influx DB dan Thingsboard**
 - INFLUX_URL_BASE=http://localhost:8086 (Ini diatur sesuaikan pada device)
 - INFLUX_BUCKET=Sensorskt
 - INFLUX_TOKEN=<token>
 - THINGSBOARD_HOST=mqtt://thingsboard.cloud (ini diatur sesuaikan pada device)
-
 ### **2. Rust uploader**
+```bash
 cd SKTkel8
 cargo build --release
 cargo run
+```
+---
+## 📊 Arsitektur Sistem
+[SHT20 Sensor]
+      │ (RS485 Modbus)
+      ▼
+ [ESP32-S3 (Rust Firmware)]
+      │ Wi-Fi (MQTT)
+      ├──► InfluxDB (data logger)
+      └──► ThingsBoard (visualisasi)
+      ▲
+ [Python Bridge] ◄── DWSIM (.ods simulation)
 
+---
 
 
 
