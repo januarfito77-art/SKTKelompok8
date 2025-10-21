@@ -8,6 +8,7 @@ Proyek ini merupakan bagian dari **Tugas Akhir** yang mengintegrasikan sistem **
 
 ---
 ## 🧩 Struktur Proyek
+```text
 ├── datadwsim/
 │ ├── dwsim_report.ods # File hasil simulasi DWSIM
 │ ├── uploader.py # Python bridge → InfluxDB & ThingsBoard
@@ -17,6 +18,7 @@ Proyek ini merupakan bagian dari **Tugas Akhir** yang mengintegrasikan sistem **
 ├── src/ # Source code utama ESP32-S3
 ├── build.rs # Script build firmware
 └── target/ # Hasil build firmware
+```
 
 ## ⚙️ Deskripsi Teknis
 ### **1. ESP32-S3 (Rust)**
@@ -53,6 +55,7 @@ cargo run
 ```
 ---
 ## 📊 Arsitektur Sistem
+```text
 [SHT20 Sensor]
       │ (RS485 Modbus)
       ▼
@@ -62,22 +65,22 @@ cargo run
       └──► ThingsBoard (visualisasi)
       ▲
  [Python Bridge] ◄── DWSIM (.ods simulation)
-
+```
 ---
 **## ⭐ Fitur Unggulan**
-✅ Integrasi penuh hardware–software
-✅ Sinkronisasi hasil DWSIM & sensor nyata
-✅ Upload otomatis ke InfluxDB & ThingsBoard
-✅ Efisien: kirim hanya saat file berubah
-✅ Visualisasi real-time dashboard
+-✅ Integrasi penuh hardware–software
+-✅ Sinkronisasi hasil DWSIM & sensor nyata
+-✅ Upload otomatis ke InfluxDB & ThingsBoard
+-✅ Efisien: kirim hanya saat file berubah
+-✅ Visualisasi real-time dashboard
 ---
-**👩‍💻 Author**
-Ahmad Radhy, S.Si., M.Si
-Yanuar Rahmansyah
-Syahira Arliya Putri Subekti
-Institut Teknologi Sepuluh Nopember (ITS)
-Departemen Teknik Instrumentasi
-
+**##👩‍💻 Author**
+-Ahmad Radhy, S.Si., M.Si
+-Yanuar Rahmansyah
+-Syahira Arliya Putri Subekti
+-Institut Teknologi Sepuluh Nopember (ITS)
+-Departemen Teknik Instrumentasi
+---
 
 
 
