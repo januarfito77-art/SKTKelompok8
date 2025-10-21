@@ -76,11 +76,12 @@ cargo run
 ---
 
 ## 👩‍💻 Author
--Ahmad Radhy, S.Si., M.Si
--Yanuar Rahmansyah
--Syahira Arliya Putri Subekti
--Institut Teknologi Sepuluh Nopember (ITS)
--Departemen Teknik Instrumentasi
+- Ahmad Radhy, S.Si., M.Si
+- Yanuar Rahmansyah
+- Syahira Arliya Putri Subekti
+- Institut Teknologi Sepuluh Nopember (ITS)
+- Departemen Teknik Instrumentasi
+--- 
 
 
 
